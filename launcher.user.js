@@ -822,7 +822,7 @@ console.log("Running Bot Launcher!");
 
     var debugStrings = [];
     debugStrings.push("Current Bot: " + window.botList[botIndex][0]);
-    debugStrings.push("T - Bot: " + (!toggle ? "On" : "Off"));
+    debugStrings.push("E - Bot: " + (!toggle ? "On" : "Off"));
     debugStrings.push("R - Lines: " + (!toggleDraw ? "On" : "Off"));
     debugStrings.push("Q - Follow Mouse: " + (toggleFollow ? "On" : "Off"));
     debugStrings.push("Server: " + serverIP);
@@ -975,7 +975,7 @@ console.log("Running Bot Launcher!");
   dArc = [],
   dText = [],
   lines = [],
-  names = ["NotReallyABot"],
+  names = ["PokerFace"],
   originalName = names[Math.floor(Math.random() * names.length)],
   sessionScore = 0,
   serverIP = "",
